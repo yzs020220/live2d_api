@@ -13,7 +13,20 @@
       "elementary-school-costume-navy"
     ],
     "Potion-Maker/Tia",
-    "bilibili-live/22",
+    ["22/default",
+      "22/cba-normal",
+      "22/cbasuper",
+      "22/newyear",
+      "22/school2017",
+      "22/spring-2018",
+      "22/summer2017-high",
+      "22/summer2017-low",
+      "22/tomo-high",
+      "22/tomo-low",
+      "22/valley2017",
+      "22/vdays",
+      "22/xmas"
+    ],
     "bilibili-live/33",
     [
       "ShizukuTalk/shizuku-48",
