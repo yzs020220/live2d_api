@@ -87,9 +87,10 @@
       "Pio/winter-costume",
       "Pio/witch-costume-white",
       "Pio/witch-costume"
-
     ],
-    "Potion-Maker/Tia",
+    ["Tia/bikini-costume-blue",
+      "bikini-costume-pink",
+    ],
     ["22/default",
       "22/cba-normal",
       "22/cbasuper",
