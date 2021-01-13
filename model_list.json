@@ -1,16 +1,18 @@
 {
   "models": [
-    ["Pio/animal-costume",
+    ["Pio/default-costume",
+      "Pio/animal-costume",
       "Pio/animal-costume-racoon",
       "Pio/bunny-girl-costume",
       "Pio/bunny-girl-costume-red",
       "Pio/cake-costume-choco",
       "Pio/cake-costume-cream",
-      "Pio/default-costume",
       "Pio/dress-costume",
       "Pio/dress-costume-brown",
       "Pio/elementary-school-costume",
-      "Pio/elementary-school-costume-navy"
+      "Pio/elementary-school-costume-navy",
+      "Pio/fall-dress-costume-beige",
+      "Pio/fall-dress-costume-brown"
     ],
     "Potion-Maker/Tia",
     ["22/default",

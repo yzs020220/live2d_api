@@ -1,0 +1,16 @@
+
+"fall-dress-costume-brown",
+"fall-bikini-costume-green",
+"fall-bikini-costume-purple",
+"frill-blouse-costume-green",
+"frill-blouse-costume-red",
+"furisode-costume",
+"halloween-costume",
+"hanbok-costume-pink",
+"hanbok-costume-red",
+"hanbok-costume-skyblue",
+"hanbok-costume-yellow",
+"hanbok-costume",
+"healer-costume",
+"kids-costume-navy",
+"kids-costume"
