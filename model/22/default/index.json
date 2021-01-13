@@ -2,7 +2,7 @@
     "type":"Live2D Model Setting",
     "name":"22-3695903",
     "label":"22",
-    "model":"model.moc",
+    "model":"../general/model.moc",
     "textures":[
         "textures/closet-default-v2.png",
         "textures/default-upper.png",
