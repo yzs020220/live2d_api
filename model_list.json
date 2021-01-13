@@ -28,7 +28,21 @@
       "22/xmas",
       "22/xmas-headwear"
     ],
-    "bilibili-live/33",
+    ["33/default",
+      "33/cba-normal",
+      "33/cbasuper",
+      "33/newyear",
+      "33/school2017",
+      "33/spring-2018",
+      "33/summer2017-high",
+      "33/summer2017-low",
+      "33/tomo-high",
+      "33/tomo-low",
+      "33/valley2017",
+      "33/vdays",
+      "33/xmas",
+      "33/xmas-headwear"
+    ],
     [
       "ShizukuTalk/shizuku-48",
       "ShizukuTalk/shizuku-pajama"
