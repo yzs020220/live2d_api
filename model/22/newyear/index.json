@@ -2,7 +2,7 @@
     "type":"Live2D Model Setting",
     "name":"22-3695903",
     "label":"22",
-    "model":"model.moc",
+    "model":"../general/model.moc",
     "textures":[
         "textures/closet-default-v2.png",
         "textures/newyear-upper.png",
@@ -23,18 +23,18 @@
 	},
     "motions":{
         "idle":[
-            {"file":"motions/idle-01.mtn","fade_in":2000,"fade_out":2000},
-            {"file":"motions/idle-02.mtn","fade_in":2000,"fade_out":2000},
-            {"file":"motions/idle-03.mtn","fade_in":100,"fade_out":100}
+            {"file":"../general/motions/idle-01.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"../general/motions/idle-02.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"../general/motions/idle-03.mtn","fade_in":100,"fade_out":100}
         ],
         "flick_head":[
-            {"file":"motions/touch.mtn","fade_in":500,"fade_out":200}
+            {"file":"../general/motions/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "tap_body":[
-            {"file":"motions/touch.mtn","fade_in":500,"fade_out":200}
+            {"file":"../general/motions/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "thanking":[
-            {"file":"motions/thanking.mtn","fade_in":2000,"fade_out":2000}
+            {"file":"../general/motions/thanking.mtn","fade_in":2000,"fade_out":2000}
         ]
     }
 }
