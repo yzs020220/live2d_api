@@ -5,9 +5,9 @@
     "model":"model.moc",
     "textures":[
         "textures/closet-default-v2.png",
-        "textures/default-upper.png",
-        "textures/default-lower.png",
-        "textures/default-hat.png"
+        "textures/spring-2018-upper.png",
+        "textures/spring-2018-lower.png",
+        "textures/spring-2018-hat.png"
     ],
     "layout":{
         "center_x": 0,

@@ -5,9 +5,9 @@
     "model":"model.moc",
     "textures":[
         "textures/closet-default-v2.png",
-        "textures/default-upper.png",
-        "textures/default-lower.png",
-        "textures/default-hat.png"
+        "textures/vdays-upper.png",
+        "textures/vdays-lower.png",
+        "textures/vdays-hat.png"
     ],
     "layout":{
         "center_x": 0,

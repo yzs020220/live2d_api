@@ -5,9 +5,9 @@
     "model":"model.moc",
     "textures":[
         "textures/closet-default-v2.png",
-        "textures/tomo-low-upper.png",
-        "textures/tomo-low-lower.png",
-        "textures/tomo-low-hat.png"
+        "textures/xmas-upper.png",
+        "textures/xmas-lower.png",
+        "textures/xmas-headwear.png"
     ],
     "layout":{
         "center_x": 0,

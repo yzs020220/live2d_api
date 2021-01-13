@@ -9,8 +9,8 @@
       "Pio/default-costume",
       "Pio/dress-costume",
       "Pio/dress-costume-brown",
-      "elementary-school-costume",
-      "elementary-school-costume-navy"
+      "Pio/elementary-school-costume",
+      "Pio/elementary-school-costume-navy"
     ],
     "Potion-Maker/Tia",
     ["22/default",
@@ -25,7 +25,8 @@
       "22/tomo-low",
       "22/valley2017",
       "22/vdays",
-      "22/xmas"
+      "22/xmas",
+      "22/xmas-headwear"
     ],
     "bilibili-live/33",
     [
