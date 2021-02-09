@@ -17,16 +17,16 @@
   },
   "motions": {
     "idle": [{
-      "file": "motions/Idle.mtn"
+      "file": "motions/idle.mtn"
     }],
     "sleepy": [{
-      "file": "motions/Nemui.mtn"
+      "file": "motions/nemui.mtn"
     }],
     "flick_head": [{
-      "file": "motions/AnoneSynced.mtn"
+      "file": "motions/anonesynced.mtn"
     }],
     "tap_body": [{
-      "file": "motions/Dance.mtn"
+      "file": "motions/dance.mtn"
     }]
   }
 }
