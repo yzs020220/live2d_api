@@ -9,9 +9,9 @@
 		"moc/asuna_04.1024/texture_03.png"
 	],
 	"layout": {
-		"width": 1,
-		"center_x": 0,
-		"center_y": 0
+		"width": 1.1,
+		"center_x": -0.0507,
+		"center_y": -0.089
 	},
 	"expressions":[
 		{"name":"F_FUN","file":"exp/F_FUN.exp.json"},
