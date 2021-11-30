@@ -8,6 +8,11 @@
 		"moc/asuna_04.1024/texture_02.png",
 		"moc/asuna_04.1024/texture_03.png"
 	],
+	"layout": {
+		"width": 0.7,
+		"center_x": -0.0507,
+		"center_y": -0.089
+	},
 	"expressions":[
 		{"name":"F_FUN","file":"exp/F_FUN.exp.json"},
 		{"name":"F_FUN_HANIKAMI","file":"exp/F_FUN_HANIKAMI.exp.json"},
