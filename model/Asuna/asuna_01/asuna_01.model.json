@@ -1,7 +1,7 @@
 {
   "version": "Sample 1.0.0",
   "model": "moc/asuna_01.moc",
-  "textures": ["moc/asuna_01.1024/texture_00.png", "moc/asuna_01.1024/texture_01.png", "moc/asuna_01.1024/texture_02.png", "moc/asuna_01.1024/texture_03.png"],
+  "textures": ["../general/assets/texture_00.png", "../general/assets/texture_01.png", "moc/asuna_01.1024/texture_02.png", "moc/asuna_01.1024/texture_03.png"],
   "expressions": [{
     "name": "F_FUN",
     "file": "../general/exp/F_FUN.exp.json"
