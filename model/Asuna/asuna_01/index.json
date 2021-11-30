@@ -1,7 +1,17 @@
 {
   "version": "Sample 1.0.0",
   "model": "moc/asuna_01.moc",
-  "textures": ["../general/assets/texture_00.png", "../general/assets/texture_01.png", "moc/asuna_01.1024/texture_02.png", "moc/asuna_01.1024/texture_03.png"],
+  "name":"asuna_01",
+  "textures": [
+    "../general/assets/texture_00.png",
+    "../general/assets/texture_01.png",
+    "moc/asuna_01.1024/texture_02.png",
+    "moc/asuna_01.1024/texture_03.png"],
+  "layout": {
+    "width": 1.1,
+    "center_x": -0.0507,
+    "center_y": -0.089
+  },
   "expressions": [{
     "name": "F_FUN",
     "file": "../general/exp/F_FUN.exp.json"
@@ -33,11 +43,7 @@
     "name": "F_SLEEP",
     "file": "../general/exp/F_SLEEP.exp.json"
   }],
-  "layout": {
-    "center_x": 0,
-    "y": 1.3,
-    "width": 2.9
-  },
+
   "hit_areas": [{
     "name": "chest",
     "id": "D_REF.PT_CHEST"
