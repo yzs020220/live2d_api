@@ -1,11 +1,12 @@
 {
   "version": "Sample 1.0.0",
-  "model": "moc/asuna_06.moc",
+  "model": "moc/asuna_20.moc",
   "textures": [
     "../general/assets/texture_00.png",
     "../general/assets/texture_01.png",
-    "moc/asuna_06.1024/texture_02.png",
-    "moc/asuna_06.1024/texture_03.png"],
+    "moc/asuna_20.1024/texture_02.png",
+    "moc/asuna_20.1024/texture_03.png"
+  ],
   "expressions": [{
     "name": "F_FUN",
     "file": "../general/exp/F_FUN.exp.json"
@@ -97,5 +98,5 @@
       "file": "../general/mtn/IDLING_03.mtn"
     }]
   },
-  "physics": "asuna_06.physics.json"
+  "physics": "asuna_20.physics.json"
 }
