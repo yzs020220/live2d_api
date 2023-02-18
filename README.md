@@ -1,6 +1,26 @@
 # Live2D API
 
-Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端 API
+### 目前的模型列表(自己修改的)
+
+potion maker的pio与tia(可换装)
+
+小埋
+
+埃罗芒阿老师里的和泉纱雾
+
+点兔的香风智乃(可惜没有:rabbit2::older_adult:)
+
+unity娘
+
+龙女仆里的康娜
+
+### 食用教程
+
+[Hexo博客添加live2看板娘-可换装，增删模型](https://yzs020220.github.io/posts/41158/)
+
+## 原作者readme内容
+
+Live2D 看板娘插件 ([网页添加 Live2D 看板娘 - FGHRSH 的博客](https://www.fghrsh.net/post/123.html)) 上使用的后端 API
 
 ### 特性
 
@@ -12,6 +32,7 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 ## 使用
 
 ### 环境要求
+
 - PHP 版本 >= 5.2
 - 依赖 PHP 扩展：json
 
@@ -39,8 +60,8 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 ### 添加模型
 
 - 单模型 单皮肤 切换
-    - 单次加载只输出一个皮肤
-    - 皮肤放在 `textures` 文件夹，自动识别
+  - 单次加载只输出一个皮肤
+  - 皮肤放在 `textures` 文件夹，自动识别
 
 ```shell
 │  index.json
@@ -59,37 +80,41 @@ Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
 ```
 
 - 单模型 多组皮肤 递归穷举
-    - 多组皮肤 组合模型、穷举组合
-    - 皮肤文件夹按 `texture_XX` 命名
-    - 添加 `textures_order.json` 列出组合
-```shell
-│  index.json
-│  model.moc
-│  textures.cache
-│  textures_order.json
-│
-├─motions
-│      idle_01.mtn
-│      idle_02.mtn
-│      idle_03.mtn
-│
-├─texture_00
-│      00.png
-│
-├─texture_01
-│      00.png
-│      01.png
-│      02.png
-│
-├─texture_02
-│      00.png
-│      01.png
-│      02.png
-│
-└─texture_03
-       00.png
-       01.png
-```
+  
+  - 多组皮肤 组合模型、穷举组合
+  
+  - 皮肤文件夹按 `texture_XX` 命名
+  
+  - 添加 `textures_order.json` 列出组合
+    
+    ```shell
+    │  index.json
+    │  model.moc
+    │  textures.cache
+    │  textures_order.json
+    │
+    ├─motions
+    │      idle_01.mtn
+    │      idle_02.mtn
+    │      idle_03.mtn
+    │
+    ├─texture_00
+    │      00.png
+    │
+    ├─texture_01
+    │      00.png
+    │      01.png
+    │      02.png
+    │
+    ├─texture_02
+    │      00.png
+    │      01.png
+    │      02.png
+    │
+    └─texture_03
+     00.png
+     01.png
+    ```
 
 textures_order.json
 
@@ -115,7 +140,7 @@ textures.cache
 ```
 
 - 同分组 多个模型 或 多个路径 切换
-    - 修改 `model_list.json` 添加多个模型
+  - 修改 `model_list.json` 添加多个模型
 
 ```shell
 │
@@ -142,6 +167,7 @@ textures.cache
 ```
 
 model_list.json
+
 ```json
 {
     "models": [
@@ -160,6 +186,7 @@ model_list.json
 ```
 
 ### 接口用法
+
 - `/add/` - 检测 新增皮肤 并更新 缓存列表
 - `/get/?id=1-23` 获取 分组 1 的 第 23 号 皮肤
 - `/rand/?id=1` 根据 上一分组 随机切换

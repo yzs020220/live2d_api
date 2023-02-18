@@ -1,6 +1,6 @@
 {
-  "name": "akilar-live2dapi",
-  "version": "1.0.6",
+  "name": "yzs-live2d_src",
+  "version": "1.1.0",
   "description": "看板娘模型资源文件",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akilarlxh/live2d_api.git"
+    "url": "git+https://github.com/yzs020220/live2d_api.git"
   },
   "keywords": [
     "live2d",
@@ -16,10 +16,10 @@
     "api",
     "assets"
   ],
-  "author": "akilarlxh",
-  "license": "ISC",
+  "author": "yzs020220",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Akilarlxh/live2d_api/issues"
+    "url": "https://github.com/yzs020220/live2d_api/issues"
   },
-  "homepage": "https://github.com/Akilarlxh/live2d_api#readme"
+  "homepage": "https://github.com/yzs020220/live2d_api#readme"
 }
